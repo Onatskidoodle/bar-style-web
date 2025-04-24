@@ -13,6 +13,15 @@
       font-weight: bold;
       box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
       transform: rotate(var(--rotate));
+      background-image: url('/mnt/data/post-it.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
   </style>
 </head>
@@ -32,17 +41,17 @@
 
   <!-- Sticky Notes Section -->
   <main class="relative min-h-screen flex flex-wrap justify-center items-center gap-8 p-8">
-    <div class="sticky-note bg-yellow-300 rounded-xl" style="--rotate: -3deg">
-      <a href="https://forms.gle/your-worker-form-link" class="block h-full w-full text-center text-xl">Register as Worker</a>
+    <div class="sticky-note" style="--rotate: -3deg">
+      <a href="https://forms.gle/your-worker-form-link" class="block w-full text-xl">Register as Worker</a>
     </div>
-    <div class="sticky-note bg-blue-300 rounded-xl" style="--rotate: 4deg">
-      <a href="https://forms.gle/your-employer-form-link" class="block h-full w-full text-center text-xl">Register as Employer</a>
+    <div class="sticky-note" style="--rotate: 4deg">
+      <a href="https://forms.gle/your-employer-form-link" class="block w-full text-xl">Register as Employer</a>
     </div>
-    <div class="sticky-note bg-green-300 rounded-xl" style="--rotate: -6deg">
-      <a href="#" class="block h-full w-full text-center text-xl">View Posted Jobs</a>
+    <div class="sticky-note" style="--rotate: -6deg">
+      <a href="#" class="block w-full text-xl">View Posted Jobs</a>
     </div>
-    <div class="sticky-note bg-pink-300 rounded-xl" style="--rotate: 5deg">
-      <a href="#" class="block h-full w-full text-center text-xl">Find a Skilled Worker</a>
+    <div class="sticky-note" style="--rotate: 5deg">
+      <a href="#" class="block w-full text-xl">Find a Skilled Worker</a>
     </div>
   </main>
 
