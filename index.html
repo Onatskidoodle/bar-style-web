@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaoMuna - Labor Pooling Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .sticky-note {
+      width: 200px;
+      height: 200px;
+      padding: 1rem;
+      font-weight: bold;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+      transform: rotate(var(--rotate));
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-blue-700 text-white px-4 py-3 flex justify-between items-center sticky top-0 shadow z-10">
+    <div class="flex items-center gap-2">
+      <img src="taomuna-logo.png" alt="TaoMuna Logo" class="h-10">
+      <span class="text-xl font-semibold">TaoMuna</span>
+    </div>
+    <div class="flex gap-4">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">Find Workers</a>
+      <a href="#" class="hover:underline">Find Jobs</a>
+    </div>
+  </nav>
+
+  <!-- Sticky Notes Section -->
+  <main class="relative min-h-screen flex flex-wrap justify-center items-center gap-8 p-8">
+    <div class="sticky-note bg-yellow-300 rounded-xl" style="--rotate: -3deg">
+      <a href="https://forms.gle/your-worker-form-link" class="block h-full w-full text-center text-xl">Register as Worker</a>
+    </div>
+    <div class="sticky-note bg-blue-300 rounded-xl" style="--rotate: 4deg">
+      <a href="https://forms.gle/your-employer-form-link" class="block h-full w-full text-center text-xl">Register as Employer</a>
+    </div>
+    <div class="sticky-note bg-green-300 rounded-xl" style="--rotate: -6deg">
+      <a href="#" class="block h-full w-full text-center text-xl">View Posted Jobs</a>
+    </div>
+    <div class="sticky-note bg-pink-300 rounded-xl" style="--rotate: 5deg">
+      <a href="#" class="block h-full w-full text-center text-xl">Find a Skilled Worker</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center py-4 mt-10">
+    <p class="text-sm text-gray-700">&copy; 2025 TaoMuna. All rights reserved.</p>
+  </footer>
+</body>
+</html>
