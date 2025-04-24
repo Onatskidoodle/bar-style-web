@@ -7,33 +7,34 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     .sticky-note {
-  width: 200px;
-  height: 200px;
-  padding: 1rem;
-  font-weight: bold;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
-  transform: rotate(var(--rotate));
-  background-image: url('https://raw.githubusercontent.com/Onatskidoodle/bar-style-web/main/post-it.png'); /* Updated URL */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+      width: 200px;
+      height: 200px;
+      padding: 1rem;
+      font-weight: bold;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+      transform: rotate(var(--rotate));
+      background-image: url('https://raw.githubusercontent.com/Onatskidoodle/bar-style-web/main/post-it.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
   </style>
 </head>
 <body class="bg-yellow-50 text-gray-800">
   <!-- Navbar -->
   <nav class="bg-blue-700 text-white px-4 py-3 flex justify-between items-center sticky top-0 shadow z-10">
     <div class="flex items-center gap-2">
-      <img src="logo.png" alt="Taomuna logo" class="h-10">
+      <img src="taomuna-logo.png" alt="TaoMuna Logo" class="h-10">
       <span class="text-xl font-semibold">TaoMuna</span>
     </div>
     <div class="flex gap-4">
       <a href="#" class="hover:underline">Home</a>
+      <a href="register.html" class="hover:underline">Register</a>
       <a href="#" class="hover:underline">Find Workers</a>
       <a href="#" class="hover:underline">Find Jobs</a>
     </div>
@@ -42,10 +43,10 @@
   <!-- Sticky Notes Section -->
   <main class="relative min-h-screen flex flex-wrap justify-center items-center gap-8 p-8">
     <div class="sticky-note" style="--rotate: -3deg">
-      <a href="https://forms.gle/your-worker-form-link" class="block w-full text-xl">Register as Worker</a>
+      <a href="register.html" class="block w-full text-xl">Register as Worker</a>
     </div>
     <div class="sticky-note" style="--rotate: 4deg">
-      <a href="https://forms.gle/your-employer-form-link" class="block w-full text-xl">Register as Employer</a>
+      <a href="register.html" class="block w-full text-xl">Register as Employer</a>
     </div>
     <div class="sticky-note" style="--rotate: -6deg">
       <a href="#" class="block w-full text-xl">View Posted Jobs</a>
