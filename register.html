@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register - TaoMuna</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 p-6">
-  <div class="max-w-lg mx-auto bg-white p-6 rounded shadow">
-    <h1 class="text-2xl font-bold mb-4 text-center">Register as Worker</h1>
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
-      <input type="text" name="fullname" placeholder="Full Name" class="w-full p-2 border rounded" required>
-      <input type="email" name="email" placeholder="Email Address" class="w-full p-2 border rounded" required>
-      <input type="text" name="contact" placeholder="Contact Number" class="w-full p-2 border rounded" required>
-      <input type="text" name="location" placeholder="Location" class="w-full p-2 border rounded">
-      <select name="skill" class="w-full p-2 border rounded" required>
-        <option value="">Select Skill</option>
-        <option value="mason">Mason</option>
-        <option value="carpenter">Carpenter</option>
-        <option value="electrician">Electrician</option>
-        <option value="plumber">Plumber</option>
-        <option value="welder">Welder</option>
-      </select>
-      <textarea name="experience" placeholder="Experience (optional)" class="w-full p-2 border rounded"></textarea>
-      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full">
-        Submit
-      </button>
-    </form>
+<body class="bg-yellow-50 text-gray-800">
+
+  <!-- Back to Main Button -->
+  <div class="p-4">
+    <a href="index.html" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+      Back to Main
+    </a>
   </div>
+
+  <!-- Your registration form here -->
+  <main class="p-8">
+    <h2 class="text-xl font-bold">Register as Worker</h2>
+    <form action="your-form-handling-link" method="POST" class="mt-4">
+      <!-- Form fields here -->
+    </form>
+  </main>
+
 </body>
 </html>
